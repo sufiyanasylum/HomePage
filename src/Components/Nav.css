@@ -1,0 +1,11 @@
+   .navbarone{
+        width: 180px;
+        height: 35px;
+        margin-left: 15px;
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+}
