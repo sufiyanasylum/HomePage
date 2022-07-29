@@ -4,18 +4,18 @@ import './Header.css'
  function Header () {
   return (
     <div>
- <section id="hero" className="hero d-flex align-items-center">
+ <section id="hero" className="hero d-flex align-items-center mx-4">
 
-<div className="container">
-  <div className="row gx-5">
-    <div className="col-lg-6  d-flex flex-column justify-content-center flex-column">
+<div className="container" style={{  width: '100%',   height: '50%', left: '5%', top: '1%', }}>
+  <div className="row gx-5 ">
+    <div className="col-lg-6  d-flex flex-column justify-content-center flex-column ">
       <h1 className="heading" data-aos="fade-up" >We build <strong className="brand"> apps  </strong>for your business</h1>
       <h2 className="containt" data-aos="fade-up" data-aos-delay="400">Helping companies with our industry leading experience to achieve there goal.
 We build apps for your business</h2>
       <div data-aos="fade-up" data-aos-delay="600">
         <div className="text-center text-lg-start">
 
-        <button type="button" class="btn btn-info my-3 ms-4">Get started </button>
+        <button type="button" className="   btn btn-info my-2 ms-2 "  style={{ left: '8rem'  }}>Get started </button>
 
         </div>
       </div>

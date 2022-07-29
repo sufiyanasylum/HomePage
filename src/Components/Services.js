@@ -1,58 +1,158 @@
 import React from 'react'
 import './Services.css'
-import {FcAndroidOs} from 'react-icons/fc'
-import {IoLogoNodejs} from 'react-icons/io'
-import {FaPhp} from 'react-icons/fa'
-import {SiCodeigniter} from 'react-icons/si'
-import {DiFirebase} from 'react-icons/di'
-import {SiMongodb} from 'react-icons/si'
-import {BsFillBootstrapFill} from 'react-icons/bs'
-import {SiMysql} from 'react-icons/si'
-import {FaNodeJs} from 'react-icons/fa'
-import {FaLaravel} from 'react-icons/fa'
-import {SiKotlin} from 'react-icons/si'
-import {FaReact} from 'react-icons/fa'
-import circle from '../assets/img/circle.png'
-import {SiDotnet} from 'react-icons/si'
-import circleshadow from '../assets/img/circleshadow.png'
+
+import circleshadow from '../assets/img/services.jpeg'
+import android from '../assets/img/image 24.png'
+import react from '../assets/img/image 25.png'
+import kotlin from '../assets/img/image 26.png'
+import node from '../assets/img/image 28.png'
+import laravel from '../assets/img/image 27.png'
+
+// card2 image
+import next from '../assets/img/image 31.png'
+import php from '../assets/img/image 33.png'
+import mysql from '../assets/img/image 32.png'
+import mongo from '../assets/img/image 30.png'    
+import firebse from '../assets/img/image 29.png'
+
 export default function Services() {
   return (
-    <div>
-      <div class="row">
-  <div class="col-12 col-md-6 col-lg-4 mb-1">
-    <div class="card">
-    <div className='circleshadow'>
-        <img className="card-img-top" src={circleshadow} alt="Circle shadow icon" />
+    <div className=' container services'>
+       <div className="row">
+  <div className=" second col-md-6 col-lg-6 " >
+    <div className="cardh my-3  mx-4" style={{  height: '230px', left: '100px', top: '40px', borderRadi9us: '1%' }}>
+  <img alt="Card image cap " className="card-img img-fluid " src={circleshadow} style={{ backgroundSize: 'cover', borderRadius: '30px', background: 'bottom left 15% black'  }} />
+      <div className="card-block" >
+        <h4 className="Mobile">Mobile Development</h4>
+
+        <div className='cardcntnt' style={{ top: '370px' }}>
+        <div className='top' style={{ left: '4rem' }}>
+      <img src={android}  className="alogo " alt="android" />
+      <p className='acon'>Android</p> 
       </div>
-     
-      <div className='circle'>
-    <img src={circle}  alt="..." />
-    </div>
-    
-    <div className='circleword'>
-      <h2>Mobile App Development</h2>
-    </div>       <div class="card-body">
-        <p class="card-text"></p>
+      <div className='top'>
+      <img src={react}  className="alogo " alt="android" />
+      <p className='acon'>React Native</p> 
+      </div>
+      <div className='top'>
+      <img src={kotlin}  className="alogo " alt="android" />
+      <p className='acon'>Kotlin</p> 
+      </div>
+      <div className='top'>
+      <img src={node}  className="alogo " alt="android" />
+      <p className='acon'>Node.js</p> 
+      </div>
+      <div className='top'>
+      <img src={laravel}  className="alogo " alt="android" />
+      <p className='acon'>Laravel Admin</p> 
+      </div>
+        </div>
       </div>
     </div>
   </div>
-  {/* <div class="col-12 col-md-6 col-lg-4 mb-4">
-    <div class="card">
-      <img class="card-img-top" src="" alt="Card image cap" />
-      <div class="card-body">
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+  
+ <div className=" second col-md-6 col-lg-6   ">
+      <div className="cardh  my-3 mx-4" style={{ height: '230px', left: '100px', top: '40px', borderRadius: '1%' }}>
+      <img alt="Card image cap my-4 " className="card-img-top img-fluid " src={circleshadow} style={{ backgroundSize: 'cover', borderRadius: '30px', background: 'bottom left 15% black' }}/>
+      <div className="card-block">
+      <h4 className="Mobile1 ">Ecommerce Development</h4>
+<div className="cardcdn"  style={{ top: '370px' }}>
+      <div className='top'>
+                <img src={react}  className="tlogo " alt="android" />
+                <p className='tcon'>React.JS</p> 
+                </div>
+                <div className='top'>
+                <img src={php}  className="tlogo " alt="android" />
+                <p className='tcon'>Php</p> 
+                </div>
+                <div className='top'>
+                <img src={node}  className="tlogo " alt="android" />
+                <p className='tcon'>Node.js</p> 
+                </div>
+                <div className='top'>
+                <img src={laravel}  className="tlogo " alt="android" />
+                <p className='tcon'>Laravel</p> 
+                </div>
+                <div className='top'>
+                <img src={mysql}  className="tlogo " alt="android" />
+                <p className='tcon'>MySQL</p> 
+                </div>
+                <div className='top'>
+                <img src={mongo}  className="tlogo " alt="android" />
+                <p className='tcon'>MongoDB</p> 
+                </div>
+                <div className='top'>
+                <img src={firebse}  className="tlogo " alt="android" />
+                <p className='tcon'>Firebase</p> 
+                </div>
+                </div>
+</div>
+</div>
+</div>
+<div className=" second col-md-6 col-lg-6" >
+    <div className="cardh my-3  mx-4" style={{ height: '230px', left: '100px', top: '40px', borderRadius: '1%' }}>
+  <img alt="Card image cap" className="card-img img-fluid " src={circleshadow} style={{ backgroundSize: 'cover',  borderRadius: '30px', background: 'bottom left 15% black' }} />
+      <div className="card-block" >
+        <h4 className="Mobile2">Software Development</h4>
+
+        <div className='cardcntnt' style={{ top: '370px' }}>
+        <div className='top' style={{ left: '4rem' }}>
+      <img src={android}  className="alogo " alt="android" />
+      <p className='acon'>Android</p> 
+      </div>
+      <div className='top'>
+      <img src={react}  className="alogo " alt="android" />
+      <p className='acon'>React Native</p> 
+      </div>
+      <div className='top'>
+      <img src={kotlin}  className="alogo " alt="android" />
+      <p className='acon'>Kotlin</p> 
+      </div>
+      <div className='top'>
+      <img src={node}  className="alogo " alt="android" />
+      <p className='acon'>Node.js</p> 
+      </div>
+      <div className='top'>
+      <img src={laravel}  className="alogo " alt="android" />
+      <p className='acon'>Laravel Admin</p> 
+      </div>
+        </div>
       </div>
     </div>
   </div>
-  <div class="col-12 col-md-6 col-lg-4 mb-4">
-    <div class="card">
-      <img class="card-img-top" src="" alt="Card image cap" />
-      <div class="card-body">
-        <p class="card-text"></p>
+  <div className="second col-md-6 col-lg-6"  >
+    <div className="cardh my-3 mx-4" style={{ height: '230px',  top: '40px', borderRadius: '1%' }}>
+  <img alt="Card image cap" className="card-img img-fluid " src={circleshadow} style={{ backgroundSize: 'cover', borderRadius: '30px', background: 'bottom left 15% black' }} />
+      <div className="card-block" >
+        <h4 className="Mobile3">Web App Development</h4>
+
+        <div className='cardcntnt' style={{ top: '370px' }}>
+        <div className='top' style={{ left: '4rem' }}>
+      <img src={android}  className="alogo " alt="android" />
+      <p className='acon'>Android</p> 
+      </div>
+      <div className='top'>
+      <img src={react}  className="alogo " alt="android" />
+      <p className='acon'>React Native</p> 
+      </div>
+      <div className='top'>
+      <img src={kotlin}  className="alogo " alt="android" />
+      <p className='acon'>Kotlin</p> 
+      </div>
+      <div className='top'>
+      <img src={node}  className="alogo " alt="android" />
+      <p className='acon'>Node.js</p> 
+      </div>
+      <div className='top'>
+      <img src={laravel}  className="alogo " alt="android" />
+      <p className='acon'>Laravel Admin</p> 
+      </div>
+        </div>
       </div>
     </div>
-  </div> */}
+  </div>
 </div>
-</div>
+</div>  
   )
 }

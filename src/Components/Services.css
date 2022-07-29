@@ -1,73 +1,162 @@
-.card{
-    width: 35%;
-    height: 50%;
-    margin-left: 3%;
-    margin-top: 3%;
-    position: absolute;
-      border-radius: 35px;
-    background: radial-gradient(62.87% 95.35% at 47.66% 47.35%, #424242 0%, #2B2B2B 38.99%, #000000 100%);
-}
-.card-img-top {
-    object-fit: cover;
-}
-.circle{
-position: absolute;
-left: 7.55%;
-right: 51.19%;
-top: 16.11%;
-bottom: 20.4%;
-border-radius: 150px;
-background: radial-gradient(150.37% 122.58% at 70.17% -9.64%, #295177 0%, #1B3A57 23.31%, #142739 61.53%, #04101C 100%);
+.cardh{
+ margin-bottom: 20px;
+
 }
 
-.circleword{
+.services{
+  margin-top: -7rem;
+   margin-bottom: 20rem;
+   margin-left: 5rem;
+   
+}
+.second{
+  margin-top: 8rem;
+  margin-bottom: 10px;
+}
+.cardcntnt{
+  margin-top: -358px;
+}
+.Mobile1{
+  position: absolute;
+  left: 58.2%;
+  top: 850px;
+  bottom: 46.15%;
+  
+  font-family: 'Neue Haas Grotesk Text Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+ width: 40px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #FFFFFF;
+}
+.Mobile3{
+  position: absolute;
+
+  left: 57.7%;
+  top: 1250px;
+  bottom: 46.15%;
+  width: 40px;
+  font-family: 'Neue Haas Grotesk Text Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #FFFFFF;
+}
+.cardh{
+  margin-top: 25px;
+}
+.Mobile{
 position: absolute;
-left: 9.58%;
+left: 220px;
 right: 55.19%;
-top: 40.55%;
-bottom: 43.99%;
-
+top: 845px;
+bottom: 46.15%;
+width: 40px;
 font-family: 'Neue Haas Grotesk Text Pro';
 font-style: normal;
 font-weight: 700;
-font-size: 12px;
+font-size: 24px;
 line-height: 28px;
 display: flex;
 align-items: center;
 text-align: center;
 
 color: #FFFFFF;
+
 }
-.circleshadow{
-    position: absolute;
-    left: 0%;
-    right: 100.1%;
-    top: 24.69%;
-    bottom: 24.76%;
-border-radius: 150px;
-    background: #32679A;
+.Mobile2{
+  position: absolute;
+left: 220px;
+right: 55.19%;
+top: 1250px;
+bottom: 46.15%;
+width: 40px;
+font-family: 'Neue Haas Grotesk Text Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
 }
-.android{
-width: 32px;
-height: 37px;
-margin-top: 30px;
-margin-left: 350px;
-margin-right: 200px;
+.tlogo{
+  width: 30px;
+  height: 30px;
+  margin-left: 14rem;
+  margin-top: 1rem;
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.cardh{
+  background: fixed ;
+}
+.elogo{
+  width: 20px;
+  height: 20px;
+  padding: 0px;
+  margin-left: 16rem;
+  margin-top: 1px;
+}
+.card-title{
+position: absolute;
+left: 10.58%;
+right: 55.19%;
+top: 35.55%;
+bottom: 43.99%;
+
+font-family: 'Neue Haas Grotesk Text Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 28px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+.card-img{
+  border-radius: 15px;
+}
+.alogo{
+width: 30px;
+height: 30px;
+margin-left: 14rem;
+margin-top: 1rem;
 
 /* Inside auto layout */
 
-
+flex: none;
+order: 0;
+flex-grow: 0;
 }
-.androidw{
-    width: 124px;
+.cardcntnt .acon{
+width: 150px;
+margin-top: -1.7rem;
 height: 25px;
-margin-top: -30px;
-margin-left: 400px;
+margin-left: 28rem;
 font-family: 'Neue Haas Grotesk Text Pro';
 font-style: normal;
 font-weight: 500;
-font-size: 3px;
-line-height: 30px;
+font-size: 16px;
+line-height: 25px;
 /* identical to box height */
 
 display: flex;
@@ -82,79 +171,113 @@ flex: none;
 order: 1;
 flex-grow: 0;
 }
+ .tcon{
+  width: 86px;
+  margin-top: -1.5rem;
+  height: 25px;
+  margin-left: 27rem;
+  font-family: 'Neue Haas Grotesk Text Pro';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 25px;
+  /* identical to box height */
+  
+  display: flex;
+  align-items: center;
+  
+  color: #FFFFFF;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  }
+  .cardcdn{
+margin-top: -380px;
+  }
+   .cardc{
+    margin-top: -335px;
+   }
 
-
-
-/* Web Development */
-
-.card-two{
-    width: 600px;
-    height: 400px;
-    position: absolute;
-    left: 7.0%;
-    right: -3.57%;
-    margin-top: 400px;
-
-    border-radius: 35px;
-    background: radial-gradient(62.87% 95.35% at 47.66% 47.35%, #424242 0%, #2B2B2B 38.99%, #000000 100%);   
-}
-.cards{
-    width: 600px;
-    height: 400px;
-    position: absolute;
-    margin-right: -0px;
-    margin-left: 800px;
-    margin-top: 400px;
-
-    border-radius: 35px;
-    background: radial-gradient(62.87% 95.35% at 47.66% 47.35%, #424242 0%, #2B2B2B 38.99%, #000000 100%);
-}
-.cardw{
-    width: 600px;
-    height: 400px;
-    position: absolute;
-    left: 7.0%;
-    right: -3.57%;
-    margin-top: 850px;
-
-    border-radius: 35px;
-    background: radial-gradient(62.87% 95.35% at 47.66% 47.35%, #424242 0%, #2B2B2B 38.99%, #000000 100%);
-}
-.cardt{
-    width: 600px;
-    height: 400px;
-    position: absolute;
-    margin-right: -0px;
-    margin-left: 800px;
-    margin-top: 850px;
-
-    border-radius: 35px;
-    background: radial-gradient(62.87% 95.35% at 47.66% 47.35%, #424242 0%, #2B2B2B 38.99%, #000000 100%);
-}
-@media (min-width: 576px) { 
-    .card-img-top {
-      height: 50vw;
-    }
+@media (max-width: 567px) { 
+ .second{
+  margin-top: -40px;
+  margin-bottom: 25px;
    
+ }
+
+  .services{
+    width: 420px;
+    margin-right: 1px;
+    margin-left: -22px;
+    margin-top: 25px;
+   }
+     
+     .Mobile{
+      margin-top: -15px;
+      margin-left: -150px;
+      font-size: 16px;
+      }
+      .Mobile1{
+        margin-top: 220px;
+        margin-left: -150px;
+        font-size: 16px;
+      }
+      .Mobile2{
+        margin-top: 65px;
+        margin-left: -150px;
+        font-size: 16px;
+      }
+      .Mobile3{
+        margin-top: 315px;
+        margin-left: -147px;
+        font-size: 16px;
+      }
+     .alogo{
+
+      width: 18px;
+      height: 16px;
+      
+      }
+.top .acon{
+font-size: 10px;
+margin-left: 21.5rem;
+padding-top: 2.5vh;
+ }
+ .tcon{
+  font-size: 10px;
+  margin-left: 16.5rem;
+   padding-top: 3vh;
+   margin-top: -2.1rem;
+ }
+.cardcntnt{
+  margin-top: -235px;
+  height: 410px;
+  margin-left: -80px;
+}
+.cardc{
+  margin-top: -240px;
+  height: 20px;
+  width: 410px;
+  height: 250px;
+}
+.cardcdn{
+  margin-top: -13.6rem;
+}
+.tlogo{
+width: 17px;
+height: 16px;
+margin-left: 140px;
+margin-bottom: -50px;
+margin-top: -60px;
+}
+}
+@media (min-width: 1200px) { 
+  .card-padding {
+    padding: 8vw;
   }
-  
-  @media (min-width: 768px) { 
-    .card-img-top {
-      height: 30vw;
-    }
-    
-  }
-  
-  @media (min-width: 992px) { 
-    .card-img-top {
-      height: 20vw;
-    }
-  }
-  
-  @media (min-width: 1200px) { 
-    .card-img-top {
-      height: 20vw;
-    }
-  }
-  
-  
+}
+
