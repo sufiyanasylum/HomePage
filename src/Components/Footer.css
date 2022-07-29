@@ -27,7 +27,7 @@
 .logo{
     width: 80.98px;
     height: 80.98px;
-    
+    margin-left: -12px;
     
     /* Inside auto layout */
     
@@ -38,7 +38,7 @@
 .lcon{
 width: 226px;
 height: 51px;
-
+margin-left: -20px;
 
 font-family: 'Neue Haas Grotesk Text Pro';
 font-style: normal;
@@ -75,13 +75,65 @@ flex-grow: 0;
     color: #90bdfc;
     
 }
+.linkot{
+    width: 122px;
+    height: 50px;
+    margin-left: px;
+    margin-right: 24px;
+    font-family: 'Neue Haas Grotesk Text Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    
+    /* Theme colour Light Shade */
+    
+    color: #7E8794;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
 .linkt{
     color: black;
+    margin-left: -40px;
 }
+.linkonet{
+    width: 166px;
+    height: 20px;
+    
+    font-family: 'Neue Haas Grotesk Text Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 35px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    
+    /* Grey 25% */
+    
+    color: #404040;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
 .linkone{
 width: 166px;
 height: 20px;
-
+margin-left: -40px;
 font-family: 'Neue Haas Grotesk Text Pro';
 font-style: normal;
 font-weight: 400;
@@ -107,7 +159,8 @@ flex-grow: 0;
 .linko{
     width: 122px;
 height: 50px;
-margin-right: 20px;
+margin-left: -40px;
+margin-right: 24px;
 font-family: 'Neue Haas Grotesk Text Pro';
 font-style: normal;
 font-weight: 700;
@@ -176,7 +229,56 @@ left: 120px;
 
       
     }
-   
+    .frame{
+        width: 40px;
+        height: 15px;
+        margin-left: -100px;
+            
+    }
+       .copyright{
+         margin-left: 252px;
+         
+         font-size: 10px;
+       }
+       .line{
+       width: 250px;
+       }
+       .footer{
+        width: 1400px;
+       }
+   .logo{
+    margin-left: 110px;
+    width: 70px;
+    height: 70px;
+   }
+   .lcon{
+    margin-left: 35px;
+   }
+   .linko{
+    margin-left: -70px;
+    align-items: left;
+   }
+   .linkt{
+    margin-right: 1080px;
+    font-size: 15px;
+    margin-top: -20px;
+   }
+   .linkaddress{
+    margin-top: -17px;
+    margin-left: 8rem;
+    font-size: 15px;
+    width: 150px;
+   }
+   .linkot{
+    margin-left: -28px;
+   }
+   .linkonet{
+    margin-left: -24px;
+   }
+   .linkone{
+    margin-left: -70px;
+    
+   }
     .footer{
          
          text-align: left;

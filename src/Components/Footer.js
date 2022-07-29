@@ -47,9 +47,7 @@ export default function Footer() {
                     <li>
                       <a href="#!" className="linkone">Software Development</a>
                     </li>
-                    <li>
-                      <a href="#!" className="linkone">On Demand Development</a>
-                    </li>
+                  
                     <li>
                       <a href="#!" className="linkone">Maintenance & Upgrade</a>
                     </li>
@@ -76,17 +74,17 @@ export default function Footer() {
                     
                   </ul>
                 </div>
-                <div className="col-lg-2 col-md-6 mb-4 mb-md-0 ms-2">
-                  <h5 className="linko">Address</h5>
+                <div className="col-lg-2 col-md-6 mb-4 mb-md-0 ms-1">
+                  <h5 className="linkot">Address</h5>
             
                   <ul className="list-unstyled mb-0">
                     <li>
-                       <a href="#!" className="linkone">Delhi Address:</a>
-                       <p> B-2/11, Block B,Mohan Cooperative Industrail  Estate, Badarpur, New Delhi-110044 (India)</p>
+                       <a href="#!" className="linkonet">Delhi Address:</a>
+                       <p className='linkaddress'> B-2/11, Block B,Mohan Cooperative Industrail  Estate, Badarpur, New Delhi-110044 (India)</p>
                     </li>
                     <li>
-                      <a href="#!" className="linkone">HO Lucknow Address: </a>
-                      <p>HO Lucknow Address: 87 A, Liberty Colony,
+                      <a href="#!" className="linkonet">HO Lucknow Address: </a>
+                      <p className='linkaddress'>87 A, Liberty Colony,
 Sarvodaya Nagar,Lucknow,UP - 226016
 (India)</p>
                     </li>
@@ -96,11 +94,10 @@ Sarvodaya Nagar,Lucknow,UP - 226016
               </div>
             </section>
 
-            <hr className="mb-4" />
+            <hr className="line mb-4" />
 
            
 
-            <hr className="mb-4" />
 
            
           </div>

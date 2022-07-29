@@ -11,11 +11,11 @@ import './Header.css'
     <div className="col-lg-6  d-flex flex-column justify-content-center flex-column ">
       <h1 className="heading" data-aos="fade-up" >We build <strong className="brand"> apps  </strong>for your business</h1>
       <h2 className="containt" data-aos="fade-up" data-aos-delay="400">Helping companies with our industry leading experience to achieve there goal.
-We build apps for your business</h2>
+          We build apps for your business</h2>
       <div data-aos="fade-up" data-aos-delay="600">
         <div className="text-center text-lg-start">
 
-        <button type="button" className="   btn btn-info my-2 ms-2 "  style={{ left: '8rem'  }}>Get started </button>
+        <button type="button" className="btn btn-info"  style={{ left: '8rem', width: '130px',top: '350px' }}>Get started </button>
 
         </div>
       </div>

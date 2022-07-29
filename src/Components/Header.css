@@ -102,12 +102,12 @@ flex-grow: 0;
 @media (max-width: 576px) { 
     .hero-img .img-fluid{
       margin-top: 5rem;
-
-
-
-      
     }
-   
+
+   .btn{
+    margin-top: 110px;
+    margin-left: -11px;
+   }
     .containt{
          margin-right: 37px;
          text-align: left;
@@ -115,7 +115,7 @@ flex-grow: 0;
          margin-left: 1rem;
     }
    .heading{
-    margin-right: 50px;
+     margin-left: 20px;
    }
  
   }

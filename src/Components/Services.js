@@ -7,13 +7,15 @@ import react from '../assets/img/image 25.png'
 import kotlin from '../assets/img/image 26.png'
 import node from '../assets/img/image 28.png'
 import laravel from '../assets/img/image 27.png'
-
 // card2 image
 import next from '../assets/img/image 31.png'
 import php from '../assets/img/image 33.png'
+import bootstrap from '../assets/img/image 36.png'
+import dotnet from '../assets/img/image 35.png'
 import mysql from '../assets/img/image 32.png'
 import mongo from '../assets/img/image 30.png'    
 import firebse from '../assets/img/image 29.png'
+import Codeigniter from '../assets/img/image 34.png'
 
 export default function Services() {
   return (
@@ -94,28 +96,28 @@ export default function Services() {
     <div className="cardh my-3  mx-4" style={{ height: '230px', left: '100px', top: '40px', borderRadius: '1%' }}>
   <img alt="Card image cap" className="card-img img-fluid " src={circleshadow} style={{ backgroundSize: 'cover',  borderRadius: '30px', background: 'bottom left 15% black' }} />
       <div className="card-block" >
-        <h4 className="Mobile2">Software Development</h4>
+        <h4 className="Mobile2">Web App Development</h4>
 
         <div className='cardcntnt' style={{ top: '370px' }}>
         <div className='top' style={{ left: '4rem' }}>
-      <img src={android}  className="alogo " alt="android" />
-      <p className='acon'>Android</p> 
+      <img src={bootstrap}  className="alogo " alt="android" />
+      <p className='acon'>Bootstrap 4/5</p> 
       </div>
       <div className='top'>
-      <img src={react}  className="alogo " alt="android" />
-      <p className='acon'>React Native</p> 
+      <img src={laravel}  className="alogo " alt="android" />
+      <p className='acon'>Laravel</p> 
       </div>
       <div className='top'>
-      <img src={kotlin}  className="alogo " alt="android" />
-      <p className='acon'>Kotlin</p> 
+      <img src={Codeigniter}  className="alogo " alt="android" />
+      <p className='acon'>Code Ignitor</p> 
       </div>
       <div className='top'>
       <img src={node}  className="alogo " alt="android" />
       <p className='acon'>Node.js</p> 
       </div>
       <div className='top'>
-      <img src={laravel}  className="alogo " alt="android" />
-      <p className='acon'>Laravel Admin</p> 
+      <img src={react}  className="alogo " alt="android" />
+      <p className='acon'>React Js</p> 
       </div>
         </div>
       </div>
@@ -125,28 +127,28 @@ export default function Services() {
     <div className="cardh my-3 mx-4" style={{ height: '230px',  top: '40px', borderRadius: '1%' }}>
   <img alt="Card image cap" className="card-img img-fluid " src={circleshadow} style={{ backgroundSize: 'cover', borderRadius: '30px', background: 'bottom left 15% black' }} />
       <div className="card-block" >
-        <h4 className="Mobile3">Web App Development</h4>
+        <h4 className="Mobile3">Software Deployment</h4>
 
         <div className='cardcntnt' style={{ top: '370px' }}>
         <div className='top' style={{ left: '4rem' }}>
-      <img src={android}  className="alogo " alt="android" />
-      <p className='acon'>Android</p> 
+      <img src={laravel}  className="alogo " alt="android" />
+      <p className='acon'>Laravel</p> 
       </div>
       <div className='top'>
-      <img src={react}  className="alogo " alt="android" />
-      <p className='acon'>React Native</p> 
+      <img src={Codeigniter}  className="alogo " alt="android" />
+      <p className='acon'>Code Ignitor</p> 
       </div>
       <div className='top'>
-      <img src={kotlin}  className="alogo " alt="android" />
-      <p className='acon'>Kotlin</p> 
+      <img src={php}  className="alogo " alt="android" />
+      <p className='acon'>Core Php</p> 
       </div>
       <div className='top'>
       <img src={node}  className="alogo " alt="android" />
-      <p className='acon'>Node.js</p> 
+      <p className='acon'>Node Js</p> 
       </div>
       <div className='top'>
-      <img src={laravel}  className="alogo " alt="android" />
-      <p className='acon'>Laravel Admin</p> 
+      <img src={dotnet}  className="alogo " alt="android" />
+      <p className='acon'>Dot Net</p> 
       </div>
         </div>
       </div>
