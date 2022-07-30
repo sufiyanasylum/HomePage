@@ -9,6 +9,7 @@ import Portfolio from './Components/Portfolio';
 import Cunsultation from './Components/Cunsultation';
 import Testimonial from './Components/Testimonial';
 import Footer from './Components/Footer';
+import UI from './Components/UI Development/UI';
 function App() {
   return (
     <div className="App">
@@ -22,6 +23,7 @@ function App() {
      <Cunsultation />
      <Testimonial />
      <Footer />
+     <UI     />
     </div>
   );
 }
