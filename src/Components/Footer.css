@@ -1,0 +1,328 @@
+.footer {
+    margin-top: 10rem;
+    width: 1455px;
+    margin-left: 15px;
+    border-radius: 20px;
+
+
+}
+
+.cone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 25px;
+
+    width: 226px;
+    height: 151.98px;
+    margin-top: 2rem;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.logo {
+    width: 80.98px;
+    height: 80.98px;
+    margin-left: -12px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.lcon {
+    width: 226px;
+    height: 51px;
+    margin-left: -20px;
+
+    font-family: 'Neue Haas Grotesk Text Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17.7953px;
+    line-height: 25px;
+    /* or 143% */
+
+    display: flex;
+    align-items: center;
+
+    /* Theme colour Main Shade */
+
+    color: #214466;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.acon {
+    font-family: 'Neue Haas Grotesk Text Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+
+    /* Theme colour Light Shade */
+
+    color: #90bdfc;
+
+}
+
+.linkot {
+    width: 122px;
+    height: 50px;
+    margin-left: px;
+    margin-right: 24px;
+    font-family: 'Neue Haas Grotesk Text Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+
+    /* Theme colour Light Shade */
+
+    color: #7E8794;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.linkt {
+    color: black;
+    margin-left: -40px;
+}
+
+.linkonet {
+    width: 166px;
+    height: 20px;
+
+    font-family: 'Neue Haas Grotesk Text Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 35px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    /* Grey 25% */
+
+    color: #404040;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.linkone {
+    width: 166px;
+    height: 20px;
+    margin-left: -40px;
+    font-family: 'Neue Haas Grotesk Text Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 35px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    /* Grey 25% */
+
+    color: #404040;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.linko {
+    width: 122px;
+    height: 50px;
+    margin-left: -40px;
+    margin-right: 24px;
+    font-family: 'Neue Haas Grotesk Text Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+
+    /* Theme colour Light Shade */
+
+    color: #7E8794;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.frame {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    position: absolute;
+    width: 100px;
+
+    height: 30px;
+    left: 120px;
+
+}
+
+.copyright {
+    width: 260px;
+    height: 25px;
+
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    /* identical to box height, or 156% */
+
+    display: flex;
+    align-items: center;
+    margin-left: 1100px;
+
+    /* Grey 25% */
+
+    color: #404040;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+@media (max-width: 576px) {
+    .hero-img .img-fluid {
+        margin-top: 5rem;
+
+
+
+
+    }
+
+    .frame {
+        width: 40px;
+        height: 15px;
+        margin-left: -100px;
+
+    }
+
+    .copyright {
+        margin-left: 252px;
+
+        font-size: 10px;
+    }
+
+    .line {
+        width: 250px;
+    }
+
+    .footer {
+        width: 1400px;
+    }
+
+    .logo {
+        margin-left: 110px;
+        width: 70px;
+        height: 70px;
+    }
+
+    .lcon {
+        margin-left: 35px;
+    }
+
+    .linko {
+        margin-left: -70px;
+        align-items: left;
+    }
+
+    .linkt {
+        margin-right: 1080px;
+        font-size: 15px;
+        margin-top: -20px;
+    }
+
+    .linkaddress {
+        margin-top: -17px;
+        margin-left: 8rem;
+        font-size: 15px;
+        width: 150px;
+    }
+
+    .linkot {
+        margin-left: -28px;
+    }
+
+    .linkonet {
+        margin-left: -24px;
+    }
+
+    .linkone {
+        margin-left: -70px;
+
+    }
+
+    .footer {
+
+        text-align: left;
+        font-size: 18x;
+        margin-left: -4rem;
+    }
+
+    .heading {
+        margin-right: 50px;
+    }
+
+    .btn {
+        height: 50px;
+        width: 110px;
+
+    }
+}
+
+@media (min-width: 1200px) {
+    .card-padding {
+        padding: 8vw;
+    }
+}

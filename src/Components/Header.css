@@ -1,0 +1,87 @@
+
+.container{
+    width: 100%;
+    height: 50%;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+.heading{
+    margin-left: 2px;
+}
+
+
+.about__me-image {
+    position: absolute;
+    width: 439.81px;
+    height: 406.46px;
+    left: 927px;
+    top: 151px;
+}
+
+
+
+.about__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+.heading{
+
+
+font-family: 'Neue Haas Grotesk Text Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 60px;
+
+/* Theme colour Main Shade */
+
+color: #214466;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.brand{
+    color: skyblue;
+}
+.containt{
+    font-size: 20px;
+    line-height: 30px;
+    width: fit-content;
+}
+
+
+/*Media Queries (Medium Devices)*/
+@media (max-width: 576px) { 
+    .hero-img .img-fluid{
+      margin-top: 5rem;
+    }
+
+   .btn{
+    margin-top: 110px;
+    margin-left: -11px;
+   }
+    .containt{
+         margin-right: 37px;
+         text-align: left;
+         font-size: 18x;
+         margin-left: 1rem;
+    }
+   .heading{
+     margin-left: 20px;
+   }
+ 
+  }
+    
+  @media (min-width: 1200px) { 
+    .card-padding {
+      padding: 8vw;
+    }
+  }
+  
+  

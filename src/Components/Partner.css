@@ -1,0 +1,19 @@
+.par{
+  left: 1rem;
+}
+  
+  @media (max-width: 576px) { 
+    
+    .par{
+         margin-right: 120px;
+         margin-left: -20px;
+    }
+    
+  }
+    
+  @media (min-width: 1200px) { 
+    .card-padding {
+      padding: 8vw;
+    }
+  }
+  

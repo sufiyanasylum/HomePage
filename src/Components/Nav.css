@@ -1,0 +1,22 @@
+   .navbarone{
+        width: 180px;
+        height: 35px;
+        margin-left: 15px;
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+}
+    
+.nav-link{
+
+ font-family: 'Neue Haas Grotesk Text Pro';
+font-style: normal;
+font-weight: 450;
+font-size: 24px;
+
+line-height: 20px;
+display: flex;
+   }
